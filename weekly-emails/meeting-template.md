@@ -16,4 +16,4 @@ _Goal for this week:_ (This persons goals for the week)
 
 
 ### Actions (if any)
-- [ ]
+-[ ]

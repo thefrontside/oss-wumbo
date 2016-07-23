@@ -16,7 +16,23 @@ repo is open source, so you can
 
 ## Why is OSS important to The Frontside?
 
-TODO
+We take open source pretty seriously at the Frontside because we
+strongly believe in giving back to the programming communites. As a
+consultancy we see a lot of different problems in client apps. A lot
+of the time our OS projects are born out of solving a problem for a
+client. Most of the time there's no reason why we can't open source
+our soultions and give back to the community.
+
+We also strongly believe in community supported soultions. By open
+sourcing software we allow consumers of the addons to report bugs and
+contribute back to the project they are using. This creates a much
+stronger addon which is great for **everyone involved**. That means
+you, our clients, and the community at large.
+
+Lastly, owning code is actually quite expensive. This is because if
+you own it, you have the manage the project and make sure your users
+are happy. We're more than willing to take the responsibility that
+each and everyone one of our supported addons avoid the dreaded project rot.
 
 ## What is a project champion?
 
