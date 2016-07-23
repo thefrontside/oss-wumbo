@@ -3,12 +3,12 @@
 At the Frontside we meet for 15 mins each monday and discuss what we
 were able to accomplish last week with our open source effort and what
 our goals are for the up coming week. These are published openly here
-in our oss-wumo repo and then also sent to everyone who works at the
+in our oss-wumbo repo and then also sent to everyone who works at the
 Frontside.
 
 ## How do I run the meeting?
 
-The meeting should be timeboxed to 15 minutes. It's very important to keep
+The meeting should be time boxed to 15 minutes. It's very important to keep
 these meetings short and sweet so they're not taking away too much
 time for client projects. It should be a hard stop at 15 minutes.
 

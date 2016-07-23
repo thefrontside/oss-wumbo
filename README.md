@@ -1,29 +1,28 @@
 # What is oss-wumbo?
 
 oss-wumbo is a public repo The Frontside uses to interface with the
-public at a meta level. The purpose of this repo is for you to gain a
+community at a meta level. The purpose of this repo is for you to gain a
 deeper understanding of what open source projects we're currently
 working on at The Frontside and where those projects are heading.
 
-Our goal is if it pertains to open source we should be working in the
-open and documenting our direction. This is so the users of our
-software can have insight into what is next for the project they're
-relying on. We're always looking for ways to improve how we
-collaborate with the community.  If the users want to, they can
-provide feedback and have an impact on our process or projects. This
-repo is open source, so you can
+Our goal is to be working openly and documenting our direction if it
+pertains to open source. This is so the users of our software can have
+insight into what is next for the project they're relying on. We're
+always looking for ways to improve how we collaborate with the
+community. If the users want to, they can provide feedback and have
+an impact on our process or projects. This repo is open source, so you can
 [open an issue!](https://github.com/thefrontside/oss-wumbo/issues/new)
 
 ## Why is OSS important to The Frontside?
 
 We take open source pretty seriously at the Frontside because we
-strongly believe in giving back to the programming communites. As a
+strongly believe in giving back to the programming communities. As a
 consultancy we see a lot of different problems in client apps. A lot
 of the time our OS projects are born out of solving a problem for a
 client. Most of the time there's no reason why we can't open source
-our soultions and give back to the community.
+our solutions and give back to the community.
 
-We also strongly believe in community supported soultions. By open
+We also strongly believe in community supported solutions. By open
 sourcing software we allow consumers of the addons to report bugs and
 contribute back to the project they are using. This creates a much
 stronger addon which is great for **everyone involved**. That means
@@ -38,15 +37,15 @@ each and everyone one of our supported addons avoid the dreaded project rot.
 
 A project champion is a person who is the main manager of an open
 source repo. We need project champions because unowned projects tend
-to rot. If somone "owns" a repo, they're repsonsible for making sure
+to rot. If someone "owns" a repo, they're responsible for making sure
 that repos community is healthy. This person will have the most
-context of the project and documents the roadmap of the project. **This
+context of the project and documents the road map of the project. **This
 does not mean they do all the work.**
 
 Some of the responsibilities for being a project champion are:
 
 - Keeping the project up to date
-  - Managing dependecies
+  - Managing dependencies
   - Not letting PRs get stale
   - Not letting issues get stale or unanswered
 - Managing & replying to issues
@@ -54,7 +53,7 @@ Some of the responsibilities for being a project champion are:
   - Add proper release milestones
 - Assigning PRs for review
 - Setting release milestones
-- Publishing the roadmap
+- Publishing the road map
 - **Delegating tasks when needed**
 
 Being a project champion means managing the code is only half of the
@@ -67,7 +66,7 @@ the list of projects and [their champions here](http://github.com/thefrontside/o
 
 Our goal is to provide the best OS software to the community. This
 means each one of our addons must fill an a gap in the ecosystem, not
-reivent things. Owning code is expensive after all. For us to declare
+reinvent things. Owning code is expensive after all. For us to declare
 an OS repo to be in good standing condition it must include the
 following:
 
@@ -93,8 +92,8 @@ following:
     - Good for beginners
     - Investigate
     - Waiting for response
-    - Dependecy update
-  - A filled out readme with the following:
+    - Dependency update
+  - A filled out README with the following:
     - badges
       - released version
       - version compatibility
