@@ -16,22 +16,24 @@ an impact on our process or projects. This repo is open source, so you can
 ## Why is OSS important to The Frontside?
 
 We take open source pretty seriously at the Frontside because we
-strongly believe in giving back to the programming communities. As a
-consultancy, we see many different problems in client
-apps. Oftentimes, our OS projects are born out of solving a problem
-for a client. We feel that we should be open sourcing our solutions
-and giving back to the community.
+strongly believe in giving back to the programming community. As a
+consultancy, we see many of the same problems in client apps crop up
+again, and again, and again, and this is how most of our open source
+projects are born.
 
-We also strongly believe in community supported solutions. By open
-sourcing software we allow consumers of the addons to report bugs and
-contribute back to the project they are using. This creates a much
-stronger addon which is great for **everyone involved**. That means
-you, our clients, and the community at large.
+By actively identifying shared problems, we are able to develop shared
+solutions solutions, and by open sourcing these solutions we allow
+their consumers to report bugs and contribute back. This creates a
+much stronger piece of software which is great for **everyone
+involved**. That means you, our clients, and the community at large.
 
-Lastly, owning code is actually quite expensive. This is because if
-you own it, you have to manage the project and make sure your users
-are happy. We're more than willing to take the responsibility that
-each and every one of our supported addons avoid the dreaded project rot.
+Lastly, owning code is very expensive. This is because if
+you own a project, you have to manage that project and make sure your users
+are happy. We're more than willing to take the responsibility that our
+open source projects avoids the dreaded
+[bit rot](http://www.catb.org/jargon/html/B/bit-rot.html) so that our
+community can experience the benefits of code ownership without having
+to continually shoulder its costs.
 
 ## What is a project champion?
 
