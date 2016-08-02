@@ -18,6 +18,14 @@ fixed. Also got the SVG background (color border).
 _Her goal for this week_ is to finish out the home page for the next
 frontside website.
 
+Charles says he made zero progress on any open source and/or community
+involvement last week. In his words: "I struggled to re-establish
+my life on this side of the Atlantic."
+
+With that done, _his goal for next week_ is a little less ambitious, but
+it is this: to have a first draft of his microstates blog post for
+everybody to take a swing at.
+
 I still did some OSS work while I was out last week. I started work on
 the weekly mailer rails app that I've been wanting to build. Basically
 whenever you merge a PR with the weekly email label, it will
