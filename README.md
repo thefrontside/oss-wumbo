@@ -59,8 +59,8 @@ Some of the responsibilities for being a project champion are:
 - **Delegating tasks when needed**
 
 Being a project champion means managing the code is only half of the
-battle. You're managing a small community that uses your project with
-it. You also fill a support role for people who need help using the
+battle. You're managing a small community that uses your project.
+You also fill a support role for people who need help using the
 project. It's very important to foster this community! You can find
 the list of projects and [their champions here](http://github.com/thefrontside/oss-wumbo/project-champions.md).
 
