@@ -10,3 +10,7 @@ I got the nested microstates working! I got the nested microstates working! The 
 What this means will become clear since I'm signed up to give a lunch and learn on Friday on just what the hell microstates are at the low-level, but suffice it to say that it's a really huge blocker that got wiped off my plate. What remains now is to document it, merge it, and then open it up so that others can begin to add other core features like states for `Number`, `Bool`, `Date`, etc...
 
 While I'm not going to commit to finishing my blog post on microstates, I will commit to finishing two of the tech-demos for the blog post and if all those things happen, then that will be enough!
+
+### Alex
+
+Charles and I met last week to discuss Impagination next steps. It was a great meeting! I'm reverting back to the `Pages-Interface` and that may be our only `state-machine`. We discussed that the Dataset should just be an `Observable` class for the `Pages-Interface`. So I'm again working on the `Pages-Interface` unit tests.
