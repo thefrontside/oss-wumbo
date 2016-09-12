@@ -1,7 +1,7 @@
 ## Microstates
 
 [Microstates][1] is a library for expressing "pure" reusable state
-machines. Each state is immutable, transition is a function with no
+machines. Each state is immutable. Each transition is a function with no
 side-effects.
 
 This week, Taras, the Ember Sherpa and I will be pairing to lay the
