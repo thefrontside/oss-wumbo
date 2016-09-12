@@ -30,7 +30,7 @@ Into your buffer.
 
 The only problem is that some folks don't want
 `'something'` They like `"something"`. Yet other folks still dislike
-using the "classic" `function` syntax and prefer ES6.
+using the "classic" `function` syntax and prefer ES6 fat arrows `()=>`.
 
 I had a few extra hours this weekend, so I decided to make these
 templates customizable, so now you can make it go:
