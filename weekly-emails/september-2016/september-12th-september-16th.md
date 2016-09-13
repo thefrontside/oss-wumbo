@@ -74,7 +74,7 @@ tests to their own route I want to have a new nicely designed demo
 page for x-select -- which should be the standard for all our OSS
 repos going forward.
 
-## website
+## Website
 
 
 The learning page of the new website will have a component that will load
