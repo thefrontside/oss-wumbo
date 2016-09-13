@@ -73,3 +73,21 @@ I would like to get wrap those things up this week. When moving the
 tests to their own route I want to have a new nicely designed demo
 page for x-select -- which should be the standard for all our OSS
 repos going forward.
+
+## website
+
+
+The learning page of the new website will have a component that will load
+all the available learning resources like podcasts, blogs, and talks in the
+form of cards. I've created a `media-filter` component that will render
+these resource cards.
+
+Last week I wrapped up the acceptance tests (for now), installed
+`ember-bootstrap` and finished the filtering by resource type
+functionality. These filter actions are linked to the podcast,
+blog, and talk buttons that sit above the cards.
+
+Next week I'd like to complete the search functionality so that
+when a user types a query in the search input next to the buttons,
+the cards will update asynchronously. So far I have created a `search-filter`
+component and am working on making sure the tests are relevant and passing.
