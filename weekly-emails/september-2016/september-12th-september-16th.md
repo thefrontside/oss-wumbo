@@ -49,3 +49,27 @@ it's just a great topic that I'll be giving a lunch on basic
 snippeting in emacs this Friday.
 
 [3]: https://github.com/cowboyd/mocha-snippets.el
+
+## x-select
+
+x-select 3.0 is pretty much feature complete at this point! 🎉 It now
+only uses contextual components
+([#140](https://github.com/thefrontside/emberx-select/issues/140)),
+exports the select function
+for use in integration tests (and more!)
+([#141](https://github.com/thefrontside/emberx-select/issues/141)),
+and two way data
+binding is 100% dead
+([#139](https://github.com/thefrontside/emberx-select/pull/139))!
+
+The only things that are left before we ship 3.0 is moving the tests
+off into their own test bed route
+([#123](https://github.com/thefrontside/emberx-select/issues/123)) and
+figuring out a way to deploy to
+gh-pages (or maybe elsewhere?) after a successful master CI build
+([#89](https://github.com/thefrontside/emberx-select/issues/89)).
+
+I would like to get wrap those things up this week. When moving the
+tests to their own route I want to have a new nicely designed demo
+page for x-select -- which should be the standard for all our OSS
+repos going forward.
