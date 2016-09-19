@@ -34,3 +34,6 @@ user types a query in the search input box.
 Next step is to refactor the search box and its actions so that the box resides
 inside the nav bar. Then I will create the parent component `media-filter` and
 update the tests.
+
+We now have a fully responsive layout for the site's header/footer and the homepage.
+Next steps: start subpages, finish content piece component, create blog index, photo grid on homepage
