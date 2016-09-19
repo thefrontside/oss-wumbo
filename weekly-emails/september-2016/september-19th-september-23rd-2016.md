@@ -24,3 +24,13 @@ Currently in the works is moving all of the tests into a `test-bed`
 route & styling our demo page to look nice & clean. What should fall
 out of that is a "Frontside branding" ember addon for us to pull into
 all our other addons.
+
+
+## website
+
+The `search-filter` component now successfully returns the relevant cards when a
+user types a query in the search input box.
+
+Next step is to refactor the search box and its actions so that the box resides
+inside the nav bar. Then I will create the parent component `media-filter` and
+update the tests.
