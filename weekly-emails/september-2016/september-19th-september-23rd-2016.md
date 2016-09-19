@@ -6,11 +6,11 @@ discover some bugs with x-select & they were nice enough to help patch
 those bugs by submitting some really awesome PRs:
 
 - Coalesce registering and unregistering options ([#147](https://github.com/thefrontside/emberx-select/pull/147))
-- Call willDestroyElement's this._super last ([#148](https://github.com/thefrontside/emberx-select/pull/148))
+- Call willDestroyElement's `this._super` last ([#148](https://github.com/thefrontside/emberx-select/pull/148))
 - Reduce number of components searched ([#149](https://github.com/thefrontside/emberx-select/pull/149))
 - Don't share `options` arrays between x-select instances ([#150](https://github.com/thefrontside/emberx-select/pull/150))
 - Fix bug where undefined initial values were changed to null ([#152](https://github.com/thefrontside/emberx-select/pull/152))
-- Guard against __setDefaultValues being called during teardown ([#153](https://github.com/thefrontside/emberx-select/pull/153))
+- Guard against `__setDefaultValues` being called during teardown ([#153](https://github.com/thefrontside/emberx-select/pull/153))
 
 And those are just the PRs they submitted! I was also able to land
 firing an action when an option becomes disabled
@@ -37,3 +37,11 @@ update the tests.
 
 We now have a fully responsive layout for the site's header/footer and the homepage.
 Next steps: start subpages, finish content piece component, create blog index, photo grid on homepage
+
+## emberx-form
+
+Last week was the first full day that's been committed to x-form-related OSS work! Since x-form has been put to use, we've discovered a number of pain points (a.k.a. "opportunities for improvement") regarding its usage of `ember-changeset` and how it handles deeply nested object.
+
+To that end, I've started working on library that tries to build up the "buffer"-like behavior in a way that is immutable and not at all Ember-specific. It's currently called [change-buffer](https://github.com/cafreeman/change-buffer). I did some work last week on getting it into a usable format (it's technically on npm now!).  In addition, I did a spike on consuming `change-buffer` in `x-form`, with mixed results.
+
+This week, I'll be working on how to best handle the issue of rollbacks in `change-buffer` in a way that actually works in Ember. Currently, the rollback works fine with regard to the actual data, but Ember doesn't update the DOM :(.
