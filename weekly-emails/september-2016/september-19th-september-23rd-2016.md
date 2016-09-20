@@ -48,7 +48,7 @@ This week, I'll be working on how to best handle the issue of rollbacks in `chan
 
 ## impagination
 
-After refactoring our API to a more fine-grained immutable system on the `Pages-Interface` (which acts more like a lazy `store` for pages and records). Since our tests conformed to a previous API, and that API has changed dramatically, we found ourselves battling a test-suite rather than test driven development.
+Two weeks ago we refactored our API to a more fine-grained immutable system on the `Pages-Interface` (which acts more like a lazy `store` for pages and records). Since our tests conformed to a previous API, and that API has changed dramatically, we found ourselves battling a test-suite rather than test diriving development.
 
 Last week was a major refactor of the test suite, both `tests/pages-interface` and `tests/dataset`. Since we've moved all updating of the state to the `pages-interface`, we discovered that `dataset` no longer needs to be an immutable object. All of the state transitions happen within `pages-interface`. This is just an example of some the discoveries we are making as we continue to write tests around a more fine-grained API on `Pages-Interface`.
 
