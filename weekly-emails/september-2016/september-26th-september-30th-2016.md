@@ -46,7 +46,7 @@ transitions for the _entire state tree_.
 Notice how if I toggle the left switch, I actually get a completely
 new switchboard.
 
-``` java-server-pages
+```js
 let switchboard = new State({
   left: new Bool(false),
   right: new Bool(false)
@@ -65,7 +65,7 @@ the right switch on, I turn the left switch on too. If I turn it off,
 then the left one moves. The left, however, does not affect the value
 of the right.
 
-``` js
+```js
 const Switchboard = State.extend({
   left: new Bool(false),
   right: new Bool(false),
