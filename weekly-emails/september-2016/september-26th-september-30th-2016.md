@@ -87,3 +87,18 @@ switchboard.right.toggle() //=> { left: true, right: true }
 
 I plan to put this in place this week, and then _*finally*_, it's off to
 integrate with Ember, Redux and the planet!
+
+## Impagination
+
+Impagination is a lazy interface for working with paginated datasets in the frontend. All you provide Impagination is the logic to fetch a single page, and the size of each page, and it takes care of the rest. It even unloads records, which is useful for performance on large datasets.
+
+Last week we brought back the `unfetch` function and all logic surrounding that function. `unfetch` is useful if you are working in a Javascript Framework such as Ember, which comes with its own Data Store. Unfetch lets you remove records from this data store, so your frontend store can accuratly reflect the pages and records impagination sees.
+
+This week I want to spend some time on lookup performance. Since pages and records are lazy, we are trading-off performance in favor of size. Here are some performance metrics we hope to accomplish:
+
+Please Note, all metrics include `filtering` records wth `impagination`
+
+`length`             // Returns the total number of records             => O(1)
+`getRecord(index)`   // Returns the record at the `index`               => O(log2 n)
+`getPage(offset)`    // Returns the page at the `index`                 => O(log2 n)
+`slice(start, end)`  // Returns the records at indeces `start` to `end` => O(log2 n)
